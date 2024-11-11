@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_KEY=${OPENAI_KEY}
+      - TWILIO_SID=${TWILIO_SID}
+      - TWILIO_KEY=${TWILIO_KEY}
+    volumes:
+      - .:/app
