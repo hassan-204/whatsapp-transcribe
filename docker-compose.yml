@@ -2,7 +2,7 @@ services:
   app:
     build: .
     ports:
-      - "8000:8000"
+      - "9999:9999"
     environment:
       - OPENAI_KEY=${OPENAI_KEY}
       - TWILIO_SID=${TWILIO_SID}
