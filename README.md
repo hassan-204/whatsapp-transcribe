@@ -18,15 +18,6 @@ This project is a FastAPI-based API for handling and transcribing WhatsApp voice
 - OpenAI API key
 - Docker (required for running the project in a containerized environment)
 
-### Environment Variables
-
-Before running the project, configure the following environment variables:
-
-```plaintext
-OPENAI_KEY=<your_openai_api_key>
-TWILIO_SID=<your_twilio_account_sid>
-TWILIO_KEY=<your_twilio_auth_token>
-```
 
 ## Getting Started
 
